@@ -1,0 +1,51 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all environment files.
+/.env*
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore pidfiles, but keep the directory.
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+
+# Ignore key files for decrypting credentials and more.
+/config/*.key
+
+# macOS
+.DS_Store
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Backend
+backend/log/*
+backend/tmp/*
+backend/storage/*
+backend/.bundle
+backend/vendor/bundle
+backend/coverage
+
+# Frontend
+frontend/node_modules
+frontend/dist
+frontend/coverage
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+EOF
